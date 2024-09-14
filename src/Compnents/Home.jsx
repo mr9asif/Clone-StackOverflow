@@ -1,9 +1,10 @@
 import React from 'react';
+import SideMenu from './SideMenu';
 
 const Home = () => {
     return (
-        <div>
-            <h1 className='text-4xl '>Home</h1>
+        <div className='max-w-[1400px]  mx-auto border'>
+          <SideMenu></SideMenu>
         </div>
     );
 };
