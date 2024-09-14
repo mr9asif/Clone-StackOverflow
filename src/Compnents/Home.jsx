@@ -1,10 +1,13 @@
 import React from 'react';
-import SideMenu from './SideMenu';
+import Banner from './Banner';
+
 
 const Home = () => {
     return (
-        <div className='max-w-[1400px]  mx-auto border'>
-          <SideMenu></SideMenu>
+        <div className='flex items-center'>
+        <Banner></Banner>
+         
+
         </div>
     );
 };

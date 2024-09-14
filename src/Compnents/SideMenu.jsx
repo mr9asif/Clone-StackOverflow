@@ -6,20 +6,21 @@ import { ImUsers } from "react-icons/im";
 import { IoPricetagsSharp } from "react-icons/io5";
 import { MdViewCompactAlt } from "react-icons/md";
 import { RiQuestionnaireLine } from "react-icons/ri";
+import { NavLink } from 'react-router-dom';
 
 const SideMenu = () => {
     return (
         <div className='w-[20%] px-4 min-h-screen flex flex-col border-l border-r  my-5'>
              <div className='flex flex-col gap-1'>
-             <div className='flex items-center gap-1 hover:bg-slate-100 p-2 px-3 cursor-pointer'>
+             <NavLink to='/' className='flex items-center gap-1 hover:bg-slate-100 p-2 px-3 cursor-pointer'>
              <FaHome />
-              <h1 className='font-normal'>Home</h1>
-             </div>
+              <h1 className='font-normal' to="home" >Home</h1>
+             </NavLink>
  
-             <div className='flex items-center gap-1 hover:bg-slate-100 p-2 px-3 cursor-pointer'>
+             <NavLink className='flex items-center gap-1 hover:bg-slate-100 p-2 px-3 cursor-pointer' to="questions">
              <RiQuestionnaireLine />
-              <h1 className='font-normal'>Questions</h1>
-             </div>
+              <h1 className='font-normal' >Questions</h1>
+             </NavLink>
  
              <div className='flex items-center gap-1 hover:bg-slate-100 p-2 mb-6 px-3 cursor-pointer'>
             <IoPricetagsSharp />
