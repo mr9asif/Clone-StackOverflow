@@ -8,7 +8,7 @@ const Root = () => {
         <div className="">
              <Navbar></Navbar>
               
-             <div className="flex items-center">
+             <div className="flex items-start">
               <SideMenu></SideMenu>
              <Outlet></Outlet>
              </div>

@@ -10,7 +10,7 @@ import { NavLink } from 'react-router-dom';
 
 const SideMenu = () => {
     return (
-        <div className='w-[20%] px-4 min-h-screen flex flex-col border-l border-r  my-5'>
+        <div className='w-[20%] px-4  flex flex-col  border-l border-r  my-5'>
              <div className='flex flex-col gap-1'>
              <NavLink to='/' className='flex items-center gap-1 hover:bg-slate-100 p-2 px-3 cursor-pointer'>
              <FaHome />

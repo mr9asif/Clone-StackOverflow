@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "What is React?",
+        "description": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the application's state efficiently.",
+        "tags": ["javascript", "react", "frontend"]
+    },
+    {
+        "id": 2,
+        "title": "How does useState work in React?",
+        "description": "The useState hook is used to add state to functional components. It returns a state variable and a function to update it.",
+        "tags": ["react", "hooks", "state management"]
+    },
+    {
+        "id": 3,
+        "title": "What is the difference between var, let, and const in JavaScript?",
+        "description": "Var is function-scoped, while let and const are block-scoped. Const is used for values that should not be reassigned, while let allows reassignment.",
+        "tags": ["javascript", "es6", "variables"]
+    },
+    {
+        "id": 4,
+        "title": "How do promises work in JavaScript?",
+        "description": "Promises represent asynchronous operations. They can be in one of three states: pending, fulfilled, or rejected. Promises allow for better management of asynchronous tasks.",
+        "tags": ["javascript", "async", "promises"]
+    },
+    {
+        "id": 5,
+        "title": "What is the Virtual DOM in React?",
+        "description": "The Virtual DOM is a lightweight in-memory representation of the real DOM in React. It improves performance by only updating parts of the DOM that have changed.",
+        "tags": ["react", "virtual dom", "performance"]
+    },
+    {
+        "id": 6,
+        "title": "What is the use of the Flexbox in CSS?",
+        "description": "Flexbox is a CSS layout model that allows items within a container to be aligned and distributed with equal space, making responsive designs easier to create.",
+        "tags": ["css", "flexbox", "layout"]
+    }
+]

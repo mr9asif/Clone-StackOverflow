@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import AskQuestion from "../Compnents/AskQuestion";
 import Home from "../Compnents/Home";
 import Question from "../Compnents/Question";
 import Root from "../Compnents/Root";
@@ -15,7 +16,11 @@ import Root from "../Compnents/Root";
           {
             path:'/questions',
             element:<Question></Question>
-          }
+          },
+         {
+          path:'/askquestion',
+          element:<AskQuestion></AskQuestion>
+         }
     
     ]
     },
